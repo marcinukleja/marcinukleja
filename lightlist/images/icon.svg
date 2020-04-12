@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H128V128H0V0Z" fill="black"/>
+<g style="mix-blend-mode:screen">
+<circle cx="64" cy="100" r="12" transform="rotate(-90 64 100)" fill="#FF453A"/>
+</g>
+<g style="mix-blend-mode:screen">
+<circle cx="64" cy="28" r="12" transform="rotate(-90 64 28)" fill="#30D158"/>
+</g>
+<g style="mix-blend-mode:screen">
+<circle cx="64" cy="64" r="12" transform="rotate(-90 64 64)" fill="white"/>
+</g>
+<g style="mix-blend-mode:screen">
+<circle cx="95.1769" cy="82" r="12" transform="rotate(-150 95.1769 82)" fill="#BF5AF2"/>
+</g>
+<g style="mix-blend-mode:screen">
+<circle cx="32.823" cy="46" r="12" transform="rotate(-150 32.823 46)" fill="#FFD60A"/>
+</g>
+<g style="mix-blend-mode:screen">
+<ellipse cx="32.8231" cy="82" rx="12" ry="12" transform="rotate(-30 32.8231 82)" fill="#FF9F0A"/>
+</g>
+<g style="mix-blend-mode:screen">
+<ellipse cx="95.177" cy="46" rx="12" ry="12" transform="rotate(-30 95.177 46)" fill="#0A84FF"/>
+</g>
+</svg>
