@@ -1727,3 +1727,12 @@ a {
     left: 0;
     right: 0
 }
+
+.mu-footer {
+    height: 48px;
+    width: 100%;
+}
+
+.mu-hasfooter {
+    min-height: calc(100vh - 48px);
+}
