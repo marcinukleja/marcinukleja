@@ -12,6 +12,12 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    max-width: 512px;
+    margin: 0 auto;
+    padding: 24px 24px 0 24px;
+}
+
 *,
 *:before,
 *:after {
@@ -53,6 +59,10 @@ h3 {
     margin-bottom: 8px;
 }
 
+p {
+    margin: 0 0 8px 0;
+}
+
 a {
     text-decoration: none;
 
@@ -66,6 +76,8 @@ header {
 }
 .mu-label {
     margin-bottom: 0;
+
+    color: #666666;
 }
 .mu-value {
     color: #ffffff;
@@ -77,6 +89,17 @@ header > a {
     margin-top: 24px;
 }
 
+header > .mu-subtitle {
+    font-weight: 700;
+
+    margin: -8px 0 32px 0;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #666666;
+}
+
 /* SECTION */
 
 section {
@@ -86,9 +109,13 @@ section {
     border-top: 1px solid #666666;
 }
 
-p {
+section > .mu-subtitle {
     margin: 0 0 8px 0;
 
+    color: #ffffff;
+}
+
+section > p {
     color: #666666;
 }
 
@@ -96,6 +123,45 @@ section > a {
     display: block;
 
     margin: 0 0 8px 0;
+}
+
+.mu-type {
+    line-height: 16px;
+
+    float: left;
+
+    margin-bottom: 16px;
+
+    color: #666666;
+}
+
+.mu-date {
+    line-height: 16px;
+
+    float: right;
+
+    margin-bottom: 0;
+
+    color: #666666;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 64px;
+    padding: 8px;
+
+    text-align: center;
+
+    border-top: 1px solid #666666;
+}
+
+footer > a {
+    line-height: 32px;
+
+    margin: 16px;
+
+    color: #666666;
 }
 
 /* CLASSES */
@@ -115,34 +181,8 @@ section > a {
 }
 */
 
-.mu-type {
-    font-weight: 500;
-    line-height: 16px;
-
-    float: left;
-
-    margin-bottom: 16px;
-
-    color: #666666;
-}
-
-.mu-date {
-    font-weight: 500;
-    line-height: 16px;
-
-    float: right;
-
-    margin-bottom: 0;
-
-    color: #666666;
-}
-
-.mu-description {
-    font-weight: 500;
-
-    margin: 0 0 8px 0;
-
-    color: #ffffff;
+.mu-center {
+    text-align: center;
 }
 
 .mu-external:after {
