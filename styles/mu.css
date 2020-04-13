@@ -1,44 +1,150 @@
-.mu-center-narrow {
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #ffffff;
+    background-color: #000000;
 }
 
-.mu-text-allcaps {
-    text-transform: uppercase;
+html {
+    overflow-x: hidden;
 }
 
-.mu-text-bold {
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 700;
+
+    clear: both;
+
+    margin: 0;
 }
 
-.mu-style-caption {
-    text-transform: uppercase;
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 40px;
+
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 24px;
     font-weight: 700;
-    letter-spacing: 2px;
+    line-height: 32px;
+
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+
+    color: rgb(10, 132, 255);
+}
+
+/* HEADER */
+
+header {
+    margin-bottom: 32px;
+}
+.mu-label {
+    margin-bottom: 0;
+}
+.mu-value {
+    color: #ffffff;
+}
+
+header > a {
+    display: block;
+
+    margin-top: 24px;
+}
+
+/* SECTION */
+
+section {
+    margin: 0 0 32px 0;
+    padding: 24px 0 0 0;
+
+    border-top: 1px solid #666666;
+}
+
+p {
+    margin: 0 0 8px 0;
+
     color: #666666;
-    margin-top: -8px;
 }
 
-.mu-style-subtitle {
-    font-size: 20px!important;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto
+section > a {
+    display: block;
+
+    margin: 0 0 8px 0;
 }
 
-.mu-display-bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0
+/* CLASSES */
+
+.mu-container {
+    max-width: 512px;
+    margin: 0 auto;
+    padding: 24px;
 }
 
-.mu-footer {
-    height: 48px;
-    width: 100%;
+/*
+.mu-container:after,
+.mu-container:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+*/
+
+.mu-type {
+    font-weight: 500;
+    line-height: 16px;
+
+    float: left;
+
+    margin-bottom: 16px;
+
+    color: #666666;
 }
 
-.mu-hasfooter {
-    min-height: calc(100vh - 48px);
+.mu-date {
+    font-weight: 500;
+    line-height: 16px;
+
+    float: right;
+
+    margin-bottom: 0;
+
+    color: #666666;
+}
+
+.mu-description {
+    font-weight: 500;
+
+    margin: 0 0 8px 0;
+
+    color: #ffffff;
+}
+
+.mu-external:after {
+    content: " ↗︎";
 }
