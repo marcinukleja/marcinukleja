@@ -186,5 +186,5 @@ footer > a {
 }
 
 .mu-external:after {
-    content: " ↗︎";
+    content: " \2197";
 }
